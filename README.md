@@ -4,6 +4,14 @@ Docker image designed for generic CI tasks
 
 ## Features
 
+* Based on Ubuntu 19.10
+* Go with golint and golangci-lint
+* Git
+* Curl
+* nvm
+* terraform-switcher
+* kubectl
+
 ## Building from source
 
 ```sh
