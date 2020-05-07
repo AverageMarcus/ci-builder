@@ -4,27 +4,11 @@ Docker image designed for generic CI tasks
 
 ## Features
 
-## Install
-
-```sh
-
-```
-
 ## Building from source
-
-With Docker:
 
 ```sh
 make docker-build
 ```
-
-Standalone:
-
-```sh
-make build
-```
-
-## Resources
 
 ## Contributing
 
