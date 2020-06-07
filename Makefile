@@ -1,6 +1,6 @@
 .DEFAULT_GOAL := default
 
-IMAGE ?= docker.cloud.cluster.fun/private/REPO_NAME_LOWER:latest
+IMAGE ?= docker.cluster.fun/private/ci-builder:latest
 
 .PHONY: test # Run all tests, linting and format checks
 test: lint check-format run-tests
