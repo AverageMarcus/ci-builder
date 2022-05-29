@@ -1,6 +1,6 @@
 .DEFAULT_GOAL := default
 
-IMAGE ?= docker.cluster.fun/private/ci-builder:latest
+IMAGE ?= rg.fr-par.scw.cloud/averagemarcus/ci-builder:latest
 
 .PHONY: test # Run all tests, linting and format checks
 test: lint check-format run-tests
